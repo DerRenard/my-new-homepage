@@ -1,0 +1,117 @@
+.icon-social-1 {
+  background-image: url("../assets/social/vk.webp");
+}
+.icon-social-2 {
+  background-image: url("../assets/social/yamusic.webp");
+  background-size: 80%;
+  background-color: #fff;
+}
+.icon-social-3 {
+  background-image: url("../assets/social/pinterest.png");
+}
+.icon-social-4 {
+  background-image: url("../assets/social/reddit.png");
+}
+.icon-social-5 {
+  background-image: url("../assets/social/max.webp");
+}
+.icon-social-6 {
+  background-image: url("../assets/social/telegram.png");
+}
+.icon-social-7 {
+  background-image: url("../assets/social/bluesky.jpg");
+}
+.icon-social-8 {
+  background-image: url("../assets/social/twitter.webp");
+}
+
+/* dev */
+
+.icon-development-1 {
+  background-image: url("../assets/dev/github.png");
+}
+.icon-development-2 {
+  background-image: url("../assets/dev/tailwind.svg");
+  background-color: #170D0D;
+}
+.icon-development-3 {
+  background-image: url("../assets/dev/react.webp");
+}
+.icon-development-4 {
+  background-image: url("../assets/dev/kwork.png");
+}
+.icon-development-5 {
+  background-image: url("../assets/dev/gitlab.png");
+}
+.icon-development-6 {
+  background-image: url("../assets/dev/jsru.png");
+  background-position: 50% 30%;
+  background-size: 200%;
+}
+.icon-development-7 {
+  background-image: url("../assets/dev/firstbyte.jpg");
+}
+.icon-development-8 {
+  background-color: #fff;
+  background-image: url("../assets/dev/localhost.png");
+  background-size: 90%;
+}
+
+/* mail */
+
+.icon-mail-1 {
+  background-image: url("../assets/mail/yandexmail.webp");
+}
+.icon-mail-2 {
+  background-image: url("../assets/mail/mailru.png");
+  background-color: #170D0D;
+}
+.icon-mail-3 {
+  background-image: url("../assets/mail/vkmail.png");
+}
+.icon-mail-4 {
+  background-image: url("../assets/mail/rambler.png");
+}
+
+/* mail */
+
+.icon-university-1 {
+  background-image: url("../assets/uni/ssu.png");
+}
+.icon-university-2 {
+  background-image: url("../assets/uni/bars.png");
+  background-color: #170D0D;
+}
+.icon-university-3 {
+  background-image: url("../assets/uni/couse.png");
+}
+.icon-university-4 {
+  background-image: url("../assets/uni/mail.png");
+}
+
+/* google */
+
+.icon-google-1 {
+  background-image: url("../assets/google/docs.png");
+}
+.icon-google-2 {
+  background-image: url("../assets/google/sheets.png");
+}
+.icon-google-3 {
+  background-image: url("../assets/google/gmail.png");
+}
+.icon-google-4 {
+  background-image: url("../assets/google/youtube.png");
+}
+.icon-google-5 {
+  background-image: url("../assets/google/google.png");
+}
+.icon-google-6 {
+  background-image: url("../assets/google/translate.png");
+}
+.icon-google-7 {
+  background-image: url("../assets/google/drive.png");
+}
+.icon-google-8 {
+  background-image: url("../assets/google/fonts.svg");
+}

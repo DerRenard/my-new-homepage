@@ -1,0 +1,209 @@
+@media screen and (max-width: 1450px) {
+  * {
+    --padding: 15px;
+    --gap: 15px;
+    --border-radius: 15px;
+  }
+
+  .card {
+    --card-width: 340px;
+  }
+
+  .card-big {
+    max-height: 230px;
+  }
+
+  .card-small {
+    max-height: 150px;
+  }
+
+  .card-name {
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .search-bar {
+    max-width: 450px;
+    font-size: 35px;
+  }
+
+  .icon {
+    --icon-size: 62px;
+  }
+
+  .card-google {
+    max-height: 340px;
+  }
+  .avatar {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  .divider {
+    width: 120px;
+  }
+
+  .rolling-dice {
+    font-size: 18px;
+  }
+  .rolling-button {
+    font-size: 18px;
+  }
+  .rolling-dice::after {
+    width: 8px;
+    height: 14px;
+  }
+
+  .dice-choose {
+    font-size: 16px;
+  }
+
+  .rolling-text {
+    font-size: 18px;
+  }
+  .rolling-num {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  * {
+    --padding: 10px;
+    --gap: 10px;
+    --border-radius: 10px;
+  }
+
+  .card-big {
+    max-height: 190px;
+  }
+
+  .card-small {
+    max-height: 120px;
+  }
+
+  .card-small,
+  .card-big {
+    max-width: 290px;
+  }
+
+  .card-name {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .icon {
+    --icon-size: 52px;
+  }
+
+  .card-google {
+    max-height: 290px;
+  }
+  .avatar {
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  .search-bar {
+    max-width: 400px;
+    font-size: 30px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .divider {
+    width: 120px;
+  }
+
+  .rolling-dice {
+    font-size: 18px;
+  }
+
+  .dice-choose {
+    font-size: 16px;
+  }
+
+  .rolling-text {
+    font-size: 18px;
+  }
+  .rolling-num {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    --padding: 5px;
+    --gap: 5px;
+    --border-radius: 5px;
+  }
+
+  .card-big {
+    max-height: 155px;
+  }
+
+  .card-small {
+    max-height: 95px;
+  }
+
+  .card-small,
+  .card-big {
+    max-width: 240px;
+  }
+
+  .card-name {
+    font-size: 26px;
+    color: #fff;
+  }
+
+  .icon {
+    --icon-size: 42px;
+  }
+
+  .card-google {
+    max-height: 240px;
+  }
+  .avatar {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .divider {
+    width: 100px;
+  }
+
+  .rolling-dice {
+    font-size: 16px;
+  }
+  .rolling-button {
+    font-size: 16px;
+  }
+  .rolling-dice::after {
+    width: 6px;
+    height: 12px;
+  }
+
+  .dice-choose {
+    font-size: 10px;
+  }
+
+  .rolling-dice-splash{
+    bottom: 20px;
+  }
+
+  .rolling-text {
+    font-size: 14px;
+  }
+  .rolling-num {
+    font-size: 24px;
+  }
+}

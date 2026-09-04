@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Start Page</title>
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="styles/adaptive.css">
+
+  <script src="scripts/dice.js" defer></script>
+  <script src="scripts/search.js" defer></script>
+  <script src="scripts/search-float.js" defer></script>
+  <script src="scripts/time.js" defer></script>
+  <script src="scripts/settings.js" defer></script>
+</head>
+
+<body>
+  <div class="overlay overlay-none"></div>
+
+  <div class="container">
+    <div class="left">
+      <div class="card card-big">
+        <h1 class="card-name">Social Networks</h1>
+        <div class="down">
+          <a href="https://vk.com/im" class="icon icon-social-1"></a>
+          <a href="https://music.yandex.ru/" class="icon icon-social-2"></a>
+          <a href="https://pinterest.com/" class="icon icon-social-3"></a>
+          <a href="https://www.reddit.com/" class="icon icon-social-4"></a>
+          <a href="https://web.max.ru/" class="icon icon-social-5"></a>
+          <a href="https://web.telegram.org/" class="icon icon-social-6"></a>
+          <a href="https://bsky.app/" class="icon icon-social-7"></a>
+          <a href="https://x.com/" class="icon icon-social-8"></a>
+        </div>
+      </div>
+
+      <div class="card card-big">
+        <h1 class="card-name">Development</h1>
+        <div class="down">
+          <a href="https://github.com/DerRenard" class="icon icon-development-1"></a>
+          <a href="https://tailwindcss.com/docs/styling-with-utility-classes" class="icon icon-development-2"></a>
+          <a href="https://react.dev/learn" class="icon icon-development-3"></a>
+          <a href="https://kwork.ru/" class="icon icon-development-4"></a>
+          <a href="https://gitlab.com/renard_thl" class="icon icon-development-5"></a>
+          <a href="https://learn.javascript.ru/" class="icon icon-development-6"></a>
+          <a href="https://firstbyte.ru/" class="icon icon-development-7"></a>
+          <a href="http://127.0.0.1:5500/index.html" class="icon icon-development-8"></a>
+        </div>
+      </div>
+
+      <div class="card card-small">
+        <h1 class="card-name">Mail Services</h1>
+        <div class="down">
+          <a href="https://mail.yandex.ru/" class="icon icon-mail-1"></a>
+          <a href="https://e.mail.ru/inbox" class="icon icon-mail-2"></a>
+          <a href="https://e.mail.ru/inbox" class="icon icon-mail-3"></a>
+          <a href="https://mail.rambler.ru/folder/INBOX" class="icon icon-mail-4"></a>
+        </div>
+      </div>
+
+      <div class="card card-small">
+        <h1 class="card-name">University</h1>
+        <div class="down">
+          <a href="https://www.sgu.ru/schedule/ff/do/4071" class="icon icon-university-1"></a>
+          <a href="https://ipsilon.sgu.ru/" class="icon icon-university-2"></a>
+          <a href="https://course.sgu.ru/" class="icon icon-university-3"></a>
+          <a href="https://mail.sgu.ru/" class="icon icon-university-4"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="middle">
+      <div class="time-container">
+        <div class="time">00:00</div>
+        <div class="date">Tue, 00.00</div>
+      </div>
+
+      <div class="search-box-container">
+        <div class="search-box-form">
+          <button id="search-box-bar-icon"></button>
+          <div class="search-box-bar"></div>
+          <button id="search-box-bar-submit"></button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="right">
+      <div class="card card-big card-google">
+        <div class="up">
+          <a href="https://myaccount.google.com/" class="avatar"></a>
+          <div class="info">
+            <h1 class="name">Yan S.</h1>
+            <div class="divider"></div>
+            <h2 class="rolling-text">Roll your Destiny</h2>
+            <p class="rolling-num">--</p>
+            <div class="rolling-dice-splash rolling-dice-splash-inactive">
+              <form class="dice-choose">
+                <input type="radio" name="dice" id="D100" value="D100">
+                <label for="D100">D100</label> <br>
+
+                <input type="radio" name="dice" id="D20" value="D20">
+                <label for="D20">D20</label> <br>
+
+                <input type="radio" name="dice" id="D12" value="D12">
+                <label for="D12">D12</label> <br>
+
+                <input type="radio" name="dice" id="D10" value="D10">
+                <label for="D10">D10</label> <br>
+
+                <input type="radio" name="dice" id="D8" value="D8">
+                <label for="D8">D8</label> <br>
+
+                <input type="radio" name="dice" id="D6" value="D6">
+                <label for="D6">D6</label> <br>
+
+                <input type="radio" name="dice" id="D4" value="D4">
+                <label for="D4">D4</label> <br>
+              </form>
+            </div>
+            <div class="rolling-options">
+              <div class="rolling-dice">D20</div>
+              <button class="rolling-button" id="rolling-button">Roll</button>
+            </div>
+          </div>
+        </div>
+        <div class="down">
+          <a href="https://docs.google.com/document/u/0/" class="icon icon-google-1"></a>
+          <a href="https://docs.google.com/spreadsheets/u/0/" class="icon icon-google-2"></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox" class="icon icon-google-3"></a>
+          <a href="https://www.youtube.com/" class="icon icon-google-4"></a>
+          <a href="https://www.google.com/" class="icon icon-google-5"></a>
+          <a href="https://translate.google.com/?sl=en&tl=ru&op=translate" class="icon icon-google-6"></a>
+          <a href="https://drive.google.com/drive/u/0/home" class="icon icon-google-7"></a>
+          <a href="https://fonts.google.com/" class="icon icon-google-8"></a>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings settings-inactive">
+          <div class="change-avatar">
+            <p class="setting-name">Change avatar</p>
+            <button class="setting-control">Pic image</button>
+          </div>
+
+          <div class="change-avatar">
+            <p class="setting-name">Change Wallpaper</p>
+            <button class="setting-control">Pic image</button>
+          </div>
+
+          <div class="change-avatar">
+            <p class="setting-name">Change theme</p>
+            <button class="setting-control">Switch</button>
+          </div>
+        </div>
+
+        <button class="settings-button" id="settings-button"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-container search-container-none">
+    <form class="search-form" method="GET" target="_blank">
+      <button id="search-bar-icon" type="button"></button>
+      <input type="text" class="search-bar" id="search-bar" placeholder="Type here">
+      <button id="search-bar-submit" type="submit"></button>
+    </form>
+
+    <form class="engine-choose engine-hide" id="engine-choose">
+      <input type="radio" name="engine" id="google" value="google">
+      <label for="google">google</label> <br>
+
+      <input type="radio" name="engine" id="yandex" value="yandex">
+      <label for="yandex">yandex</label> <br>
+
+      <input type="radio" name="engine" id="duck" value="duckduckgo">
+      <label for="duck">duckduckgo</label> <br>
+    </form>
+  </div>
+
+</body>
+
+</html>
