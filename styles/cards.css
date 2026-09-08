@@ -1,0 +1,57 @@
+.card {
+  --gap-headline: 10px;
+
+  --card-width: 400px;
+  --card-big-height: 276px;
+  --card-small-height: 176px;
+
+  width: 100%;
+  max-width: var(--card-width);
+  padding: var(--padding);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-headline); /* между тайтлом и иконками */
+
+  background-color: #c4c4c4a6;
+  border-radius: var(--border-radius);
+}
+
+.card-big {
+  max-height: 360px;
+}
+
+.card-small {
+  max-height: 240px;
+}
+
+.card-name {
+  font-size: 40px;
+  color: #fff;
+}
+
+.links-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+  /* height: 100%; */
+}
+
+.icon {
+  --icon-size: 75px;
+
+  width: var(--icon-size);
+  height: var(--icon-size);
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  border-radius: var(--border-radius);
+
+  background-position: 50% 50%;
+}

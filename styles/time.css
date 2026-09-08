@@ -1,0 +1,34 @@
+.time-container {
+  width: 400px;
+  padding: 20px;
+  
+  font-size: 66px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #c4c4c4a6;
+  border-radius: var(--border-radius);
+}
+
+.time-box-container {
+  width: 400px;
+  padding: 20px;
+  
+  font-size: 66px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #c4c4c4a6;
+  border-radius: var(--border-radius);
+}
+
+.time-box-container-none {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -7,9 +7,17 @@
   <title>My Start Page</title>
 
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/overlay.css">
   <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="styles/icons.css">
   <link rel="stylesheet" href="styles/adaptive.css">
+  
+  <link rel="stylesheet" href="styles/cards.css">
+  <link rel="stylesheet" href="styles/icons.css">
+  
+  <link rel="stylesheet" href="styles/time.css">
+  <link rel="stylesheet" href="styles/search-bar.css">
+  <link rel="stylesheet" href="styles/google.css">
+  <link rel="stylesheet" href="styles/settings.css">
 
   <script src="scripts/dice.js" defer></script>
   <script src="scripts/search.js" defer></script>
@@ -25,7 +33,7 @@
     <div class="left">
       <div class="card card-big">
         <h1 class="card-name">Social Networks</h1>
-        <div class="down">
+        <div class="links-section">
           <a href="https://vk.com/im" class="icon icon-social-1"></a>
           <a href="https://music.yandex.ru/" class="icon icon-social-2"></a>
           <a href="https://pinterest.com/" class="icon icon-social-3"></a>
@@ -39,7 +47,7 @@
 
       <div class="card card-big">
         <h1 class="card-name">Development</h1>
-        <div class="down">
+        <div class="links-section">
           <a href="https://github.com/DerRenard" class="icon icon-development-1"></a>
           <a href="https://tailwindcss.com/docs/styling-with-utility-classes" class="icon icon-development-2"></a>
           <a href="https://react.dev/learn" class="icon icon-development-3"></a>
@@ -53,7 +61,7 @@
 
       <div class="card card-small">
         <h1 class="card-name">Mail Services</h1>
-        <div class="down">
+        <div class="links-section">
           <a href="https://mail.yandex.ru/" class="icon icon-mail-1"></a>
           <a href="https://e.mail.ru/inbox" class="icon icon-mail-2"></a>
           <a href="https://e.mail.ru/inbox" class="icon icon-mail-3"></a>
@@ -63,7 +71,7 @@
 
       <div class="card card-small">
         <h1 class="card-name">University</h1>
-        <div class="down">
+        <div class="links-section">
           <a href="https://www.sgu.ru/schedule/ff/do/4071" class="icon icon-university-1"></a>
           <a href="https://ipsilon.sgu.ru/" class="icon icon-university-2"></a>
           <a href="https://course.sgu.ru/" class="icon icon-university-3"></a>
@@ -78,20 +86,24 @@
         <div class="time">00:00</div>
         <div class="date">Tue, 00.00</div>
       </div>
-
+      
       <div class="search-box-container">
         <div class="search-box-form">
-          <button id="search-box-bar-icon"></button>
-          <div class="search-box-bar"></div>
-          <button id="search-box-bar-submit"></button>
+          <!-- <button id="search-box-bar-icon"></button> -->
+          <div class="search-box-bar">Click to search</div>
+          <!-- <button id="search-box-bar-submit"></button> -->
         </div>
       </div>
-
+      
+      <div class="time-box-container time-box-container-none">
+        <div class="time-box">00:00</div>
+        <div class="date-box">Tue, 00.00</div>
+      </div>
     </div>
 
     <div class="right">
       <div class="card card-big card-google">
-        <div class="up">
+        <div class="card-google-top">
           <a href="https://myaccount.google.com/" class="avatar"></a>
           <div class="info">
             <h1 class="name">Yan S.</h1>
@@ -128,7 +140,7 @@
             </div>
           </div>
         </div>
-        <div class="down">
+        <div class="links-section">
           <a href="https://docs.google.com/document/u/0/" class="icon icon-google-1"></a>
           <a href="https://docs.google.com/spreadsheets/u/0/" class="icon icon-google-2"></a>
           <a href="https://mail.google.com/mail/u/0/#inbox" class="icon icon-google-3"></a>
@@ -181,7 +193,6 @@
       <label for="duck">duckduckgo</label> <br>
     </form>
   </div>
-
 </body>
 
 </html>

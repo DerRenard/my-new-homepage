@@ -1,0 +1,60 @@
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  position: relative;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  position: absolute;
+  bottom: 75px;
+  right: 0px;
+
+  width: 300px;
+  /* height: 100%; */
+  padding: 20px;
+
+  font-size: 20px;
+
+  background-color: #c4c4c4a6;
+  border-radius: var(--border-radius) var(--border-radius) 0 var(--border-radius);
+}
+
+.settings-inactive {
+  display: none;
+}
+
+.settings > * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-control {
+  background-color: #43433e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.settings-button {
+  width: 75px;
+  height: 75px;
+  
+  background-image: url("../assets/svg/settings.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50% 50%;
+  
+  background-color: #c4c4c4a6;
+  border-radius: var(--border-radius);
+}
+
+.settings-button-float {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
